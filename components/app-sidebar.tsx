@@ -15,8 +15,8 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
-import { PROJECT_NAME } from "@/app/project_data/project.config";
-import { SIDEBAR_DATA } from "@/app/project_data/sidebar";
+
+import { PROJECT_NAME, SIDEBAR_DATA } from "@/app/project_data";
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   return (
