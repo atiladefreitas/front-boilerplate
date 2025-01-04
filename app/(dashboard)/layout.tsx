@@ -66,7 +66,7 @@ export default function LayoutDashboard({ children }: PageProps) {
               <BreadcrumbList>
                 <BreadcrumbSeparator />
                 {breadcrumbs.map((breadcrumb, index) => (
-                  <BreadcrumbItem key={breadcrumb.path}>
+                  <BreadcrumbItem key={breadcrumb.path + index}>
                     {breadcrumb.isActive ? (
                       <BreadcrumbPage>{breadcrumb.label}</BreadcrumbPage>
                     ) : (

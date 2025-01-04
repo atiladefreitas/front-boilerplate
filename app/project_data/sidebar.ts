@@ -1,13 +1,4 @@
-import {
-  BookOpen,
-  Bot,
-  Frame,
-  Map,
-  PieChart,
-  Settings2,
-  LayoutDashboard,
-  SquareTerminal,
-} from "lucide-react";
+import { LayoutDashboard } from "lucide-react";
 
 export const SIDEBAR_DATA = {
   user: {
